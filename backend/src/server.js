@@ -26,7 +26,6 @@ app.get('/movies/latest', async (req, res) => {
     },
   });
 
-  console.log(movies);
   res.send(movies);
 });
 

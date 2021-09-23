@@ -53,7 +53,6 @@ class MovieDetails extends React.Component {
       ? `${config.tmdbBaseImageUrl}${movie.posterPath}`
       : config.emptyPosterPath;
 
-    console.log(movie);
     return (
       <div style={{ marginTop: '50px' }}>
         <section className='details-section'>
