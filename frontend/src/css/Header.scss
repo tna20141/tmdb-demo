@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+}
+
+.header-content {
+  width: 80%;
+  display: flex;
+}
+
+.logo {
+  color: $secondary-color;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}

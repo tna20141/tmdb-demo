@@ -1,0 +1,7 @@
+{
+  "extends": "anhlq",
+  "rules": {
+    "consistent-return": "off",
+    "no-param-reassign": "off"
+  }
+}

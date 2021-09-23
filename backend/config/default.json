@@ -1,0 +1,15 @@
+{
+  "PORT": 8080,
+  "TMDB": {
+    "API_KEY": "7e3b27b5d3f637906dbb284d5ceaf6d1",
+    "BASE_URL": "https://api.themoviedb.org/3",
+    "DATE_FORMAT": "YYYY-MM-DD"
+  },
+  "DATABASE": {
+    "HOST": "localhost",
+    "PORT": 3306,
+    "USER": "test",
+    "PASSWORD": "test",
+    "DATABASE": "tmdb"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "tmdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --timeout 20000",
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bottleneck": "^2.19.5",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.18.0",
+    "eslint-config-anhlq": "git+https://github.com/tna20141/eslint-config-anhlq.git",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^9.1.1",
+    "sinon": "^11.1.2"
+  }
+}
